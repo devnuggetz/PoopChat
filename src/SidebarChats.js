@@ -13,7 +13,7 @@ function SidebarChats({id, name, addNewChat}) {
                 setMessages(snapshot.docs.map((doc)=> doc.data()))
              ))
         }
-    },[ ])
+    },[id])
 
     
     useEffect(() => {
@@ -24,8 +24,8 @@ function SidebarChats({id, name, addNewChat}) {
         const roomName= prompt("Please enter name for chat");
         if(roomName) {
             // do something
-            db.collection('Rooms').add({
-                Name: roomName,
+            db.collection('rooms').add({
+                name: roomName,
             })
         }
         
