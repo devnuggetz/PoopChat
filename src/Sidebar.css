@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    border-right: 1px solid #9AC1D9;
+    border-right: 1px solid #E6E6E6;
     background-color: #ededed;
 }
 .sidebar__headerRight{
@@ -27,7 +27,7 @@
 .sidebar__search{
     display: flex;
     align-items: center;
-    background-color:#9AC1D9;
+    background-color:#f8f8ff;
     height: 30px;
     padding: 10px;
 }
@@ -53,7 +53,7 @@
 .sidebar__chats{
     display: flex;
     flex: 1;
-    background-color: #9AC1D9;
+    background-color: white;
     overflow: s;
     flex-direction: column;
 }
